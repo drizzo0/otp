@@ -5,6 +5,10 @@
  */
 class OTP{
 
+    /**
+     * returns a modified epoch variable
+     * @return string
+     */
     function getTime10sec(){
         $modifiedLast2=0;
         $time = microtime(false);
@@ -39,6 +43,10 @@ class OTP{
         return $modifiedTime;
     }
 
+    /**
+     * returns a modified epoch variable
+     * @return string
+     */
     function getTime20sec(){
         $modifiedLast2=0;
         $time = microtime(false);
@@ -63,6 +71,11 @@ class OTP{
         return $modifiedTime;
     }
 
+    /**
+     * passing the key it will return a 6 digits OTP code
+     * @param $key
+     * @return bool|string
+     */
     function getOTP($key){
         $time=$this->getTime10sec();
         $method = "AES-256-CFB8";
@@ -79,12 +92,11 @@ class OTP{
         return $decLastSix;
     }
 
-
-
-
-
-
-
+    /**
+     * giving a string it will returns an hex
+     * @param $string
+     * @return string
+     */
     function strToHex($string){
         $hex = '';
         for ($i=0; $i<strlen($string); $i++){
@@ -94,15 +106,5 @@ class OTP{
         }
         return strToUpper($hex);
     }
-    function hexToStr($hex){
-        $string='';
-        for ($i=0; $i < strlen($hex)-1; $i+=2){
-            $string .= chr(hexdec($hex[$i].$hex[$i+1]));
-        }
-        return $string;
-    }
-
-
-
 
 }
