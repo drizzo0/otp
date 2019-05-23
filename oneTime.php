@@ -7,7 +7,6 @@
  *
  */
 
-
     /** Setting up OTP Class **/
     require 'otp.php';
     $OTP=new OTP();
