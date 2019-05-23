@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="873cd0f4-3b60-4999-855f-102f8d59e8f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/oneTime.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otp.php" beforeDir="false" afterPath="$PROJECT_DIR$/otp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +19,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/otp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+            <state relative-caret-position="195">
+              <caret line="103" selection-start-line="103" selection-end-line="103" />
               <folding>
                 <element signature="e#7#27#0#PHP" />
                 <element signature="e#44#118#0#PHP" />
-                <element signature="n#getTime20sec#0;n#OTP#0;n#!!top" />
-                <element signature="e#1235#1309#0#PHP" />
-                <element signature="n#getTime20sec#0;n#OTP#0;n#!!top" />
+                <element signature="n#getTime10sec#0;n#OTP#0;n#!!top" />
                 <element signature="e#2066#2181#0#PHP" />
                 <element signature="n#getOTP#0;n#OTP#0;n#!!top" />
                 <element signature="e#2724#2825#0#PHP" />
@@ -38,11 +37,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/oneTime.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="345">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#6#43#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,8 +57,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/otp.php" />
+        <option value="$PROJECT_DIR$/test.php" />
       </list>
     </option>
   </component>
@@ -114,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558615405090</updated>
-      <workItem from="1558615406269" duration="6533000" />
+      <workItem from="1558615406269" duration="7472000" />
     </task>
     <task id="LOCAL-00001" summary="First release">
       <created>1558624573732</created>
@@ -123,23 +125,37 @@
       <option name="project" value="LOCAL" />
       <updated>1558624573732</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added comments">
+      <created>1558624953536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558624953536</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Removed an unused part and added more comments">
+      <created>1558625619322</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558625619322</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6533000" />
+    <option name="totallyTimeSpent" value="7472000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
@@ -159,30 +175,40 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First release" />
-    <option name="LAST_COMMIT_MESSAGE" value="First release" />
+    <MESSAGE value="Added comments" />
+    <MESSAGE value="Removed an unused part and added more comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed an unused part and added more comments" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/otp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
           <folding>
             <element signature="e#7#27#0#PHP" />
             <element signature="e#44#118#0#PHP" />
-            <element signature="n#getTime20sec#0;n#OTP#0;n#!!top" />
-            <element signature="e#1235#1309#0#PHP" />
-            <element signature="n#getTime20sec#0;n#OTP#0;n#!!top" />
+            <element signature="n#getTime10sec#0;n#OTP#0;n#!!top" />
             <element signature="e#2066#2181#0#PHP" />
             <element signature="n#getOTP#0;n#OTP#0;n#!!top" />
             <element signature="e#2724#2825#0#PHP" />
             <element signature="n#strToHex#0;n#OTP#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dsa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oneTime.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#6#43#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
